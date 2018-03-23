@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc_profile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="marc21_profile_configuration.xsd">
+
+<!--
+https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_(English)/Resource_Management/080Configuring_Resource_Management/030Configuring_Cataloging?uxp=true#Extension_Pack_.xsd
+https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_(English)/Resource_Management/080Configuring_Resource_Management/030Configuring_Cataloging?uxp=true#Extension_Pack_.xml_File_Example
+-->
+
+	<data_fields_list>
+		<data_field_configuration repeatable="false" mandatory="false" tag="019" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<description>OCLC Control Number Cross-Reference</description>
+			<help_url>https://www.oclc.org/bibformats/en/0xx/019.html</help_url>
+			<!-- help_url not working; ticket submitted by lf
+			-->
+			<first_indicator_configuration>
+				<description>Undefined</description>
+				<values>
+					<value code="#">Undefined</value>
+				</values>
+			</first_indicator_configuration>
+			<second_indicator_configuration>
+				<description>Undefined</description>
+				<values>
+					<value code="#">Undefined</value>
+				</values>
+			</second_indicator_configuration>
+			<sub_fields_list>
+				<sub_field_configuration code="a" repeatable="true" mandatory="false">
+					<description>OCLC control number of merged and deleted record</description>
+				</sub_field_configuration>
+			</sub_fields_list>
+		</data_field_configuration>
+		<data_field_configuration repeatable="true" mandatory="false" tag="028" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+				<sub_fields_list>
+					<sub_field_configuration code="q" repeatable="true" mandatory="false">
+						<description>Qualifying information</description>
+				</sub_field_configuration>
+			</sub_fields_list>
+		</data_field_configuration>
+		<data_field_configuration repeatable="true" mandatory="false" tag="079" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<description>OCLC master record no.</description>
+			<first_indicator_configuration>
+				<description>Undefined</description>
+				<values>
+					<value code="#">Undefined</value>
+				</values>
+			</first_indicator_configuration>
+			<second_indicator_configuration>
+				<description>Undefined</description>
+				<values>
+					<value code="#">Undefined</value>
+				</values>
+			</second_indicator_configuration>
+			<sub_fields_list>
+				<sub_field_configuration code="a" mandatory="false" repeatable="false">
+					<description>OCLC control number from batch process (III)</description>
+				</sub_field_configuration>
+			</sub_fields_list>
+		</data_field_configuration>
+		<data_field_configuration repeatable="true" mandatory="false" tag="440" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<description>Series Statement/Added Entry-Title</description>
+			<help_url>https://www.loc.gov/marc/bibliographic/bd440.html</help_url>
+			<first_indicator_configuration>
+				<description>Undefined</description>
+				<values>
+					<value code="#">Undefined</value>
+				</values>
+			</first_indicator_configuration>
+			<second_indicator_configuration>
+				<description>Nonfiling characters</description>
+				<values>
+					<value code="0">No nonfiling characters</value>
+					<value code="1">Number of nonfiling characters</value>
+					<value code="2">Number of nonfiling characters</value>
+					<value code="3">Number of nonfiling characters</value>
+					<value code="4">Number of nonfiling characters</value>
+					<value code="5">Number of nonfiling characters</value>
+					<value code="6">Number of nonfiling characters</value>
+					<value code="7">Number of nonfiling characters</value>
+					<value code="8">Number of nonfiling characters</value>
+					<value code="9">Number of nonfiling characters</value>
+				</values>
+			</second_indicator_configuration>
+			<sub_fields_list>
+				<sub_field_configuration code="a" mandatory="false" repeatable="false">
+					<description>Title</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="n" mandatory="false" repeatable="true">
+					<description>Number of part/section of a work</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="p" mandatory="false" repeatable="true">
+					<description>Name of part/section of a work</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="v" mandatory="false" repeatable="false">
+					<description>Volume/sequential designation</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="w" mandatory="false" repeatable="true">
+					<description>Bibliographic record control number</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="x" mandatory="false" repeatable="false">
+					<description>ISSN</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="0" mandatory="false" repeatable="true">
+					<description>Authority record control number</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="6" mandatory="false" repeatable="false">
+					<description>Linkage</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="8" mandatory="false" repeatable="true">
+					<description>Field link and sequence number</description>
+				</sub_field_configuration>
+			</sub_fields_list>
+		</data_field_configuration>
+		<data_field_configuration repeatable="true" mandatory="false" tag="910" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<first_indicator_configuration>
+				<description>Undefined</description>
+				<values>
+					<value code="#">Undefined</value>
+				</values>
+			</first_indicator_configuration>
+		</data_field_configuration>
+		<data_field_configuration repeatable="true" mandatory="false" tag="980" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<first_indicator_configuration>
+				<description>Undefined</description>
+				<values>
+					<value code="#">Undefined</value>
+				</values>
+			</first_indicator_configuration>
+		</data_field_configuration>
+		<data_field_configuration repeatable="true" mandatory="false" tag="981" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<first_indicator_configuration>
+				<description>Undefined</description>
+				<values>
+					<value code="#">Undefined</value>
+				</values>
+			</first_indicator_configuration>
+			<sub_fields_list>
+				<sub_field_configuration code="j" mandatory="false" repeatable="true">
+				</sub_field_configuration>
+			</sub_fields_list>
+		</data_field_configuration>
+	</data_fields_list>
+</marc_profile>
