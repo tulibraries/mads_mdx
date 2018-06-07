@@ -111,91 +111,95 @@ https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_
 				</sub_field_configuration>
 			</sub_fields_list>
 		</data_field_configuration>
-		<data_field_configuration repeatable="true" mandatory="false" tag="793" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-			<description>Local Added Entry--Uniform Title</description>
-			<help_url>https://www.oclc.org/bibformats/en/7xx/793.html</help_url>
+		<data_field_configuration repeatable="true" mandatory="false" tag="973" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<description>Local Added Entry--Collection Title</description>
+			<help_url>https://www.loc.gov/marc/bibliographic/bd773.html</help_url>
 			<first_indicator_configuration>
-				<description>Nonfiling characters</description>
+				<descriptionNote controller</description>
 					<values>
-						<value code="0">No nonfiling characters</value>
-						<value code="1">Number of nonfiling characters</value>
-						<value code="2">Number of nonfiling characters</value>
-						<value code="3">Number of nonfiling characters</value>
-						<value code="4">Number of nonfiling characters</value>
-						<value code="5">Number of nonfiling characters</value>
-						<value code="6">Number of nonfiling characters</value>
-						<value code="7">Number of nonfiling characters</value>
-						<value code="8">Number of nonfiling characters</value>
-						<value code="9">Number of nonfiling characters</value>
+						<value code="0">Display note</value>
+						<value code="1">Do not display note</value>
 					</values>
 			</first_indicator_configuration>
 			<second_indicator_configuration>
-				<description>Type of added entry</description>
+				<description>Display constant controller</description>
 					<values>
-						<value code="#">Undefined</value>
-						<value code="2">Analytical entry</value>
+						<value code="#">In</value>
+						<value code="2">No display constant generated</value>
 					</values>
 			</second_indicator_configuration>
 			<sub_fields_list>
 				<sub_field_configuration code="a" mandatory="false" repeatable="false">
-					<description>Uniform title</description>
+					<description>Main entry heading</description>
 				</sub_field_configuration>
-				<sub_field_configuration code="d" mandatory="false" repeatable="true">
-					<description>Date of treaty signing</description>
+				<sub_field_configuration code="b" mandatory="false" repeatable="false">
+					<description>Main entry heading</description>
 				</sub_field_configuration>
-				<sub_field_configuration code="f" mandatory="false" repeatable="false">
-					<description>Date of a work</description>
+				<sub_field_configuration code="d" mandatory="false" repeatable="false">
+					<description>Place, publisher, and date of publication</description>
 				</sub_field_configuration>
 				<sub_field_configuration code="g" mandatory="false" repeatable="true">
-					<description>Miscellaneous information</description>
+					<description>Related parts</description>
 				</sub_field_configuration>
 				<sub_field_configuration code="h" mandatory="false" repeatable="false">
-					<description>Medium</description>
+					<description>Physical description</description>
 				</sub_field_configuration>
 				<sub_field_configuration code="i" mandatory="false" repeatable="true">
 					<description>Relationship information</description>
 				</sub_field_configuration>
 				<sub_field_configuration code="k" mandatory="false" repeatable="true">
-					<description>Form subheading</description>
+					<description>Series data for related item</description>
 				</sub_field_configuration>
-				<sub_field_configuration code="l" mandatory="false" repeatable="false">
-					<description>Language of a work</description>
-				</sub_field_configuration>
-				<sub_field_configuration code="m" mandatory="false" repeatable="true">
-					<description>Medium of performance for music</description>
+				<sub_field_configuration code="m" mandatory="false" repeatable="false">
+					<description>Material-specific details</description>
 				</sub_field_configuration>
 				<sub_field_configuration code="n" mandatory="false" repeatable="true">
-					<description>Number of part/section of a work</description>
+					<description>Note</description>
 				</sub_field_configuration>
-				<sub_field_configuration code="o" mandatory="false" repeatable="false">
-					<description>Arranged statement for music</description>
+				<sub_field_configuration code="o" mandatory="false" repeatable="true">
+					<description>Other item identifier</description>
 				</sub_field_configuration>
-				<sub_field_configuration code="p" mandatory="false" repeatable="true">
-					<description>Name of part/section of a work</description>
+				<sub_field_configuration code="p" mandatory="false" repeatable="false">
+					<description>Abbreviated title</description>
 				</sub_field_configuration>
-				<sub_field_configuration code="r" mandatory="false" repeatable="false">
-					<description>Key for music</description>
+				<sub_field_configuration code="q" mandatory="false" repeatable="false">
+					<description>Enumeration and first page</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="r" mandatory="false" repeatable="true">
+					<description>Report number</description>
 				</sub_field_configuration>
 				<sub_field_configuration code="s" mandatory="false" repeatable="false">
-					<description>Version</description>
+					<description>Uniform title</description>
 				</sub_field_configuration>
 				<sub_field_configuration code="t" mandatory="false" repeatable="false">
-					<description>Title of a work</description>
+					<description>Title</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="u" mandatory="false" repeatable="false">
+					<description>Standard Technical Report Number</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="w" mandatory="false" repeatable="true">
+					<description>Record control number</description>
 				</sub_field_configuration>
 				<sub_field_configuration code="x" mandatory="false" repeatable="false">
 					<description>International Standard Serial Number</description>
 				</sub_field_configuration>
-				<sub_field_configuration code="0" mandatory="false" repeatable="true">
-					<description>Authority record control number or standard number</description>
+				<sub_field_configuration code="y" mandatory="false" repeatable="false">
+					<description>CODEN designation</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="z" mandatory="false" repeatable="true">
+					<description>International Standard Book Number</description>
 				</sub_field_configuration>
 				<sub_field_configuration code="3" mandatory="false" repeatable="false">
 					<description>Materials specified</description>
 				</sub_field_configuration>
-				<sub_field_configuration code="5" mandatory="false" repeatable="false">
-					<description>Institution to which field applies</description>
+				<sub_field_configuration code="4" mandatory="false" repeatable="true">
+					<description>Relationship</description>
 				</sub_field_configuration>
 				<sub_field_configuration code="6" mandatory="false" repeatable="false">
 					<description>Linkage</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="7" mandatory="false" repeatable="false">
+					<description>Control subfield</description>
 				</sub_field_configuration>
 				<sub_field_configuration code="8" mandatory="false" repeatable="true">
 					<description>Field link and sequence number</description>
