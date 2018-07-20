@@ -58,6 +58,7 @@ https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_
 			</sub_fields_list>
 		</data_field_configuration>
 		<data_field_configuration repeatable="true" mandatory="false" tag="340" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<description>Physical Medium</description>
 			<sub_fields_list>
 				<sub_field_configuration code="g" mandatory="false" repeatable="true">
 					<description>Color content</description>
