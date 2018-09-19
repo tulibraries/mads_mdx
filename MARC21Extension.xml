@@ -214,6 +214,95 @@ https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_
 				</sub_field_configuration>
 			</sub_fields_list>
 		</data_field_configuration>
+		<data_field_configuration repeatable="true" mandatory="false" tag="974" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<description>Local Added Entry--Collection Area</description>
+			<help_url>https://www.loc.gov/marc/bibliographic/bd774.html</help_url>
+			<first_indicator_configuration>
+				<description>Note controller</description>
+					<values>
+						<value code="0">Display note</value>
+						<value code="1">Do not display note</value>
+					</values>
+			</first_indicator_configuration>
+			<second_indicator_configuration>
+				<description>Display constant controller</description>
+					<values>
+						<value code="#">Constituent unit</value>
+						<value code="8">No display constant generated</value>
+					</values>
+			</second_indicator_configuration>
+			<sub_fields_list>
+				<sub_field_configuration code="a" mandatory="false" repeatable="false">
+					<description>Main entry heading</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="b" mandatory="false" repeatable="false">
+					<description>Edition</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="c" mandatory="false" repeatable="false">
+					<description>Qualifying information</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="d" mandatory="false" repeatable="false">
+					<description>Place, publisher, and date of publication</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="g" mandatory="false" repeatable="true">
+					<description>Related parts</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="h" mandatory="false" repeatable="false">
+					<description>Physical description</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="i" mandatory="false" repeatable="true">
+					<description>Relationship information</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="k" mandatory="false" repeatable="true">
+					<description>Series data for related item</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="m" mandatory="false" repeatable="false">
+					<description>Material-specific details</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="n" mandatory="false" repeatable="true">
+					<description>Note</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="o" mandatory="false" repeatable="true">
+					<description>Other item identifier</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="r" mandatory="false" repeatable="true">
+					<description>Report number</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="s" mandatory="false" repeatable="false">
+					<description>Uniform title</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="t" mandatory="false" repeatable="false">
+					<description>Title</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="u" mandatory="false" repeatable="false">
+					<description>Standard Technical Report Number</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="w" mandatory="false" repeatable="true">
+					<description>Record control number</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="x" mandatory="false" repeatable="false">
+					<description>International Standard Serial Number</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="y" mandatory="false" repeatable="false">
+					<description>CODEN designation</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="z" mandatory="false" repeatable="true">
+					<description>International Standard Book Number</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="4" mandatory="false" repeatable="true">
+					<description>Relationship</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="6" mandatory="false" repeatable="false">
+					<description>Linkage</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="7" mandatory="false" repeatable="false">
+					<description>Control subfield</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="8" mandatory="false" repeatable="true">
+					<description>Field link and sequence number</description>
+				</sub_field_configuration>
+			</sub_fields_list>
+		</data_field_configuration>
 		<data_field_configuration repeatable="true" mandatory="false" tag="910" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			<first_indicator_configuration>
 				<description>Undefined</description>
