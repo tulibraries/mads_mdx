@@ -65,6 +65,52 @@ https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_
 				</sub_field_configuration>
 			</sub_fields_list>
 		</data_field_configuration>
+		<data_field_configuration repeatable="true" mandatory="false" tag="341" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<description>Accessibility Content</description>
+			<first_indicator_configuration>
+				<description>Application</description>
+				<values>
+					<value code="#">Undefined</value>
+					<value code="0">Adaptive features to access primary content</value>
+					<value code="1">Adaptive features to access secondary content</value>
+				</values>
+			</first_indicator_configuration>
+			<second_indicator_configuration>
+				<description>Undefined</description>
+				<values>
+					<value code="#">Undefined</value>
+				</values>
+			</second_indicator_configuration>
+			<sub_field_list>
+				<sub_field_configuration code="a" mandatory="false" repeatable="false">
+					<description>Content access mode</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="b" mandatory="false" repeatable="true">
+					<description>Textual assistive features</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="c" mandatory="false" repeatable="true">
+					<description>Visual assistive features</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="d" mandatory="false" repeatable="true">
+					<description>Auditory assistive features</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="e" mandatory="false" repeatable="true">
+					<description>Tactile assistive features</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="2" mandatory="false" repeatable="false">
+					<description>Source</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="3" mandatory="false" repeatable="false">
+					<description>Materials specified</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="6" mandatory="false" repeatable="false">
+					<description>Linkage</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="8" mandatory="false" repeatable="true">
+					<description>Field link and sequence number</description>
+				</sub_field_configuration>
+			</sub_field_list>
+		</data_field_configuration>
 		<data_field_configuration repeatable="true" mandatory="false" tag="440" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			<description>Series Statement/Added Entry-Title</description>
 			<help_url>https://www.loc.gov/marc/bibliographic/bd440.html</help_url>
@@ -118,6 +164,35 @@ https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_
 					<description>Field link and sequence number</description>
 				</sub_field_configuration>
 			</sub_fields_list>
+		</data_field_configuration>
+		<data_field_configuration repeatable="true" mandatory="false" tag="532" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<description>Accessibility Note</description>
+			<first_indicator_configuration>
+				<description>Display constant controller</description>
+				<values>
+					<value code="0">Accessibility technical details</value>
+					<value code="1">Accessibility features</value>
+					<value code="2">Accessibility deficiencies</value>
+					<value code="8">No display constant generated</value>
+				</values>
+			</first_indicator_configuration>
+			<second_indicator_configuration>
+				<description>Undefined</description>
+				<values>
+					<value code="#">Undefined</value>
+				</values>
+			</second_indicator_configuration>
+			<sub_field_list>
+				<sub_field_configuration code="a" mandatory="false" repeatable="false">
+					<description>Summary of accessibility</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="6" mandatory="false" repeatable="false">
+					<description>Linkage</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="8" mandatory="false" repeatable="true">
+					<description>Field link and sequence number</description>
+				</sub_field_configuration>
+			</sub_field_list>
 		</data_field_configuration>
 		<data_field_configuration repeatable="true" mandatory="false" tag="973" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			<description>Local Added Entry--Collection Title</description>
