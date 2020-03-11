@@ -81,7 +81,7 @@ https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_
 					<value code="#">Undefined</value>
 				</values>
 			</second_indicator_configuration>
-			<sub_field_list>
+			<sub_fields_list>
 				<sub_field_configuration code="a" mandatory="false" repeatable="false">
 					<description>Content access mode</description>
 				</sub_field_configuration>
@@ -109,7 +109,7 @@ https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_
 				<sub_field_configuration code="8" mandatory="false" repeatable="true">
 					<description>Field link and sequence number</description>
 				</sub_field_configuration>
-			</sub_field_list>
+			</sub_fields_list>
 		</data_field_configuration>
 		<data_field_configuration repeatable="true" mandatory="false" tag="440" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			<description>Series Statement/Added Entry-Title</description>
@@ -182,7 +182,7 @@ https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_
 					<value code="#">Undefined</value>
 				</values>
 			</second_indicator_configuration>
-			<sub_field_list>
+			<sub_fields_list>
 				<sub_field_configuration code="a" mandatory="false" repeatable="false">
 					<description>Summary of accessibility</description>
 				</sub_field_configuration>
@@ -192,7 +192,7 @@ https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_
 				<sub_field_configuration code="8" mandatory="false" repeatable="true">
 					<description>Field link and sequence number</description>
 				</sub_field_configuration>
-			</sub_field_list>
+			</sub_fields_list>
 		</data_field_configuration>
 		<data_field_configuration repeatable="true" mandatory="false" tag="973" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			<description>Local Added Entry--Collection Title</description>
