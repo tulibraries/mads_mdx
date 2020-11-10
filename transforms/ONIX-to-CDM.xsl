@@ -53,17 +53,7 @@
         </PublicationDate>
     </xsl:template>
             
-            <!-- Author and Contributors-->
-    
-    <!--
-    <xsl:template match="//ContributorRole[.='A01']">
-        <Author>
-        <xsl:call-template name="join">    
-            <xsl:with-param name="valueList" select="parent::PersonalNameInverted"/>       
-            <xsl:with-param name="separator" select="' ; '"/>           
-        </xsl:call-template>
-        </Author>
-    </xsl:template>-->
+            <!-- Author and Contributors-->   
     
 
     <xsl:template match="Contributor">      
@@ -116,22 +106,6 @@
             </xsl:when>
         </xsl:choose>
     </xsl:template>
-    
-    <!--
-    <xsl:template name="join">          
-            <xsl:param name="valueList" select="''"/>            
-            <xsl:param name="separator" select="' ; '"/>           
-            <xsl:for-each select="$valueList">            
-                <xsl:choose>                    
-                    <xsl:when test="position() = 1">                        
-                        <xsl:value-of select="."/>                       
-                    </xsl:when>                   
-                    <xsl:otherwise>                
-                        <xsl:value-of select="concat($separator, .) "/>                       
-                    </xsl:otherwise>                    
-                </xsl:choose>                
-            </xsl:for-each>                  
-    </xsl:template>-->
             
             
 </xsl:stylesheet>
