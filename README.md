@@ -1,2 +1,2 @@
-# alma_configs
-Configuration files we create for Alma
+# mads_mdx
+Code used by the Metadata & Digitization Servics department, including Alma configurations.
