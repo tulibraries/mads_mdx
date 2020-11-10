@@ -1,2 +1,2 @@
 # mads_mdx
-Code used by the Metadata & Digitization Servics department, including Alma configurations.
+Code used by the Metadata & Digitization Services department, including Alma configurations.
