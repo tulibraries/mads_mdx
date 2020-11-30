@@ -32,11 +32,13 @@
         <Title>
             <xsl:value-of select="TitleText"/>         
         </Title>
+        <!--
         <xsl:if test="Subtitle">
             <Subtitle>
             <xsl:value-of select="Subtitle"/>
             </Subtitle>
         </xsl:if>
+        -->
     </xsl:template>         
             
             <!-- Date -->
@@ -55,7 +57,7 @@
             
             <!-- Author and Contributors-->   
     
-
+<!--
     <xsl:template match="Contributor">      
         <xsl:choose>          
             <xsl:when test="ContributorRole[.='A01']">
@@ -75,15 +77,16 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-
+-->
             
             <!-- Series -->
-    
+  <!--  
     <xsl:template match="Series">
         <Series>
             <xsl:value-of select="TitleOfSeries"/>
         </Series>
     </xsl:template>
+    -->
             
             <!-- Identifiers -->
     
@@ -97,12 +100,22 @@
         </xsl:choose>
     </xsl:template>
     
-    <xsl:template match="//RelatedProduct/ProductIdentifier">
+    <xsl:template match="//RelatedProduct[1]/ProductIdentifier">
         <xsl:choose>
             <xsl:when test="ProductIDType[.='15']">
-                <ISBN>
+                <ISBN1>
                     <xsl:value-of select="IDValue"/>
-                </ISBN>
+                </ISBN1>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="//RelatedProduct[2]/ProductIdentifier">
+        <xsl:choose>
+            <xsl:when test="ProductIDType[.='15']">
+                <ISBN2>
+                    <xsl:value-of select="IDValue"/>
+                </ISBN2>
             </xsl:when>
         </xsl:choose>
     </xsl:template>
