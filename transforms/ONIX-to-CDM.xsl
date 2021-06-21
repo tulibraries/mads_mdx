@@ -25,8 +25,16 @@
             <xsl:value-of select="."/>
         </Discount>      
     </xsl:template>
+    
+    <!-- Availability Date -->
+    
+    <xsl:template match="//SupplyDetail[1]/OnSaleDate[1]">
+        <OnSaleDate>
+            <xsl:value-of select="."/>
+        </OnSaleDate>
+    </xsl:template>
             
-            <!-- Title -->
+    <!-- Title -->
     
     <xsl:template match="Title">
         <Title>
@@ -41,7 +49,7 @@
         -->
     </xsl:template>         
             
-            <!-- Date -->
+    <!-- Copyright and Publication Dates -->
     
     <xsl:template match="CopyrightYear">
         <CopyrightYear>
@@ -55,7 +63,7 @@
         </PublicationDate>
     </xsl:template>
             
-            <!-- Author and Contributors-->   
+    <!-- Author and Contributors-->   
     
 <!--
     <xsl:template match="Contributor">      
@@ -79,7 +87,7 @@
     </xsl:template>
 -->
             
-            <!-- Series -->
+  <!-- Series -->
   <!--  
     <xsl:template match="Series">
         <Series>
@@ -88,7 +96,7 @@
     </xsl:template>
     -->
             
-            <!-- Identifiers -->
+     <!-- Identifiers -->
     
     <xsl:template match="//Product/ProductIdentifier">
         <xsl:choose>
