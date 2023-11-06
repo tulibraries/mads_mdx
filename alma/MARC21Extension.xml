@@ -59,19 +59,6 @@ https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_
 		</data_field_configuration>
 		<data_field_configuration repeatable="true" mandatory="false" tag="340" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			<description>Physical Medium</description>
-			<help_url>https://www.loc.gov/marc/bibliographic/bd340.html</help_url>
-			<first_indicator_configuration>
-				<description>Undefined</description>
-				<values>
-					<value code="#">Undefined</value>
-				</values>
-			</first_indicator_configuration>
-			<second_indicator_configuration>
-				<description>Undefined</description>
-				<values>
-					<value code="#">Undefined</value>
-				</values>
-			</second_indicator_configuration>
 			<sub_fields_list>
 				<sub_field_configuration code="g" mandatory="false" repeatable="true">
 					<description>Color content</description>
@@ -80,7 +67,6 @@ https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_
 		</data_field_configuration>
 		<data_field_configuration repeatable="true" mandatory="false" tag="341" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			<description>Accessibility Content</description>
-			<help_url>https://www.loc.gov/marc/bibliographic/bd341.html</help_url>
 			<first_indicator_configuration>
 				<description>Application</description>
 				<values>
@@ -181,7 +167,6 @@ https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_
 		</data_field_configuration>
 		<data_field_configuration repeatable="true" mandatory="false" tag="532" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			<description>Accessibility Note</description>
-			<help_url>https://www.loc.gov/marc/bibliographic/bd532.html</help_url>
 			<first_indicator_configuration>
 				<description>Display constant controller</description>
 				<values>
