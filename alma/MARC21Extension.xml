@@ -59,6 +59,19 @@ https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_
 		</data_field_configuration>
 		<data_field_configuration repeatable="true" mandatory="false" tag="340" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			<description>Physical Medium</description>
+			<help_url>https://www.loc.gov/marc/bibliographic/bd340.html</help_url>
+			<first_indicator_configuration>
+				<description>Undefined</description>
+				<values>
+					<value code="#">Undefined</value>
+				</values>
+			</first_indicator_configuration>
+			<second_indicator_configuration>
+				<description>Undefined</description>
+				<values>
+					<value code="#">Undefined</value>
+				</values>
+			</second_indicator_configuration>
 			<sub_fields_list>
 				<sub_field_configuration code="g" mandatory="false" repeatable="true">
 					<description>Color content</description>
@@ -67,6 +80,7 @@ https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_
 		</data_field_configuration>
 		<data_field_configuration repeatable="true" mandatory="false" tag="341" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			<description>Accessibility Content</description>
+			<help_url>https://www.loc.gov/marc/bibliographic/bd341.html</help_url>
 			<first_indicator_configuration>
 				<description>Application</description>
 				<values>
@@ -167,6 +181,7 @@ https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_
 		</data_field_configuration>
 		<data_field_configuration repeatable="true" mandatory="false" tag="532" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			<description>Accessibility Note</description>
+			<help_url>https://www.loc.gov/marc/bibliographic/bd532.html</help_url>
 			<first_indicator_configuration>
 				<description>Display constant controller</description>
 				<values>
@@ -191,6 +206,150 @@ https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_
 				</sub_field_configuration>
 				<sub_field_configuration code="8" mandatory="false" repeatable="true">
 					<description>Field link and sequence number</description>
+				</sub_field_configuration>
+			</sub_fields_list>
+		</data_field_configuration>
+		<data_field_configuration repeatable="true" mandatory="false" tag="539" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<description>Fixed-Length Data Elements of Reproduction Note</description>
+			<help_url>https://www.oclc.org/bibformats/en/5xx/539.html</help_url>
+			<first_indicator_configuration>
+				<description>Undefined</description>
+				<values>
+					<value code="#">Undefined</value>
+				</values>
+			</first_indicator_configuration>
+			<second_indicator_configuration>
+				<description>Undefined</description>
+				<values>
+					<value code="#">Undefined</value>
+				</values>
+			</second_indicator_configuration>
+			<sub_fields_list>
+				<sub_field_configuration code="a" mandatory="false" repeatable="false">
+					<description>Type of date/Publication status</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="b" mandatory="false" repeatable="false">
+					<description>Date 1/Beginning date of publication</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="c" mandatory="false" repeatable="false">
+					<description>Date 2/Ending date of publication</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="d" mandatory="false" repeatable="false">
+					<description>Place of publication, production or execution</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="e" mandatory="false" repeatable="false">
+					<description>Frequency</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="f" mandatory="false" repeatable="false">
+					<description>Regularity</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="g" mandatory="false" repeatable="false">
+					<description>Form of item</description>
+				</sub_field_configuration>
+			</sub_fields_list>
+		</data_field_configuration>
+		<data_field_configuration repeatable="true" mandatory="false" tag="797" xmlns="http://com/exlibris/repository/mdprofile/xmlbeans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<description>Local Added Entry--Corporate Name</description>
+			<help_url>https://www.oclc.org/bibformats/en/7xx/797.html</help_url>
+			<first_indicator_configuration>
+				<description>Type of corporate name entry element</description>
+				<values>
+					<value code="0">Inverted name</value>
+					<value code="1">Jurisdiction name</value>
+					<value code="2">Name in direct order</value>
+				</values>
+			</first_indicator_configuration>
+			<second_indicator_configuration>
+				<description>Type of added entry</description>
+				<values>
+					<value code="#">No information provided</value>
+					<value code="2">Analytical entry</value>
+				</values>
+			</second_indicator_configuration>
+			<sub_fields_list>
+				<sub_field_configuration code="a" mandatory="true" repeatable="false">
+					<description>Corporate name or jurisdiction name as entry element</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="b" mandatory="false" repeatable="true">
+					<description>Subordinate unit</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="c" mandatory="false" repeatable="false">
+					<description>Location of meeting</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="d" mandatory="false" repeatable="true">
+					<description>Date of meeting or treaty signing</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="e" mandatory="false" repeatable="true">
+					<description>Relator term</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="f" mandatory="false" repeatable="false">
+					<description>Date of a work</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="g" mandatory="false" repeatable="true">
+					<description>Miscellaneous information</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="h" mandatory="false" repeatable="false">
+					<description>Medium</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="i" mandatory="false" repeatable="true">
+					<description>Relationship information</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="k" mandatory="false" repeatable="true">
+					<description>Form subheading</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="l" mandatory="false" repeatable="false">
+					<description>Language of a work</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="m" mandatory="false" repeatable="true">
+					<description>Medium of performance for music</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="n" mandatory="false" repeatable="true">
+					<description>Number of part/section/meeting</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="o" mandatory="false" repeatable="false">
+					<description>Arranged statement for music</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="p" mandatory="false" repeatable="true">
+					<description>Name of part/section of a work</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="r" mandatory="false" repeatable="false">
+					<description>Key for music</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="s" mandatory="false" repeatable="true">
+					<description>Version</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="t" mandatory="false" repeatable="false">
+					<description>Title of a work</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="u" mandatory="false" repeatable="false">
+					<description>Affiliation</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="x" mandatory="false" repeatable="false">
+					<description>International Standard Serial Number</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="0" mandatory="false" repeatable="true">
+					<description>Authority record control number or standard number</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="1" mandatory="false" repeatable="true">
+					<description>Real World Object URI</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="2" mandatory="false" repeatable="false">
+					<description>Source of heading or term</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="3" mandatory="false" repeatable="false">
+					<description>Materials specified</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="4" mandatory="false" repeatable="true">
+					<description>Relationship</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="6" mandatory="false" repeatable="false">
+					<description>Linkage</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="8" mandatory="false" repeatable="true">
+					<description>Field link and sequence number</description>
+				</sub_field_configuration>
+				<sub_field_configuration code="9" mandatory="false" repeatable="false">
+					<description>Special entry</description>
 				</sub_field_configuration>
 			</sub_fields_list>
 		</data_field_configuration>
