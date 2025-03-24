@@ -1,3 +1,0 @@
-#DESCRIPTION#
-EDITFIELD	852	$bKARDON$cg_remote	0	$bGINSBURG$cg_remote	
-EDITFIELD	852	$bKARDON$cl_remote	1	$bLAW$cl_remote	

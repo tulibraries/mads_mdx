@@ -1,4 +1,0 @@
-#DESCRIPTION#Cleans records before sending to Marcive
-DELETE	035	\(OCoLC\)o	2	False	False	False
-DELETE	029		0	False	False	False
-DELETE	904	MARCIVE	0	false	false	false	false	false
