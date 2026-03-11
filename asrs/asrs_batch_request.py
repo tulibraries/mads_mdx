@@ -9,6 +9,7 @@
 ## Each row will contain the data for the items you would like to request. All columns are required.
 ## You can obtain the MMS ID, Holdings ID, Physical Item ID, and Physical Item Description for each item using Alma Analytics.
 ## The file should contain request data for no more than 1000 items, due to daily Alma API limitations.
+## An example file can be found in this repository at fixtures/asrs_batch_request.txt
 ## The file should be in the same directory as this script (if not, change the path in the code below).
 ##
 ## 3. Set the Alma user ID of the requester below
